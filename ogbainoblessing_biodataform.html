@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Biodata Form</title>
+  </head>
+
+  <body>
+    <h1>STUDENT BIODATA FORM</h1>
+
+    <!-- Passport Photograph Embedded Using iFrame -->
+
+    <iframe
+      src="Blessing Ogbaino Passport (4).jpg"
+      width="100"
+      height="138"
+      name="passport"
+      title="My Passport Photograph"
+      scrolling="no"
+    >
+    </iframe>
+
+    <br /><br />
+
+    <h2>PERSONAL INFORMATION</h2>
+
+    <form>
+      <label for="fullname">Full Name:</label><br />
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        value="Ogbaino Blessing"
+      />
+      <br /><br />
+
+      <label for="matric">Matriculation Number:</label><br />
+      <input
+        type="text"
+        id="matric"
+        name="matric"
+        placeholder="2025/C/CYB/1220"
+      />
+      <br /><br />
+
+      <label for="department">Department:</label><br />
+      <input
+        type="text"
+        id="department"
+        name="department"
+        value="Cybersecurity"
+      />
+      <br /><br />
+
+      <label for="faculty">Faculty:</label><br />
+      <input
+        type="text"
+        id="faculty"
+        name="faculty"
+        placeholder="Faculty of science"
+      />
+      <br /><br />
+
+      <label for="email">Email Address:</label><br />
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Pleasure park Califonia"
+      />
+      <br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="text" id="phone" name="phone" placeholder="07050398043" />
+      <br /><br />
+
+      <label for="dob">Date of Birth:</label><br />
+      <input type="text" id="dob" name="dob" placeholder="12/01/1993" />
+      <br /><br />
+
+      <p>Sex:</p>
+
+      <input type="radio" id="male" name="sex" value="Male" />
+      <label for="male">Male</label><br />
+
+      <input type="radio" id="female" name="sex" value="Female" checked />
+      <label for="female">Female</label>
+      <br /><br />
+
+      <label for="state">State of Origin:</label><br />
+      <input type="text" id="state" name="state" placeholder="Ebonyi" />
+      <br /><br />
+
+      <label for="address">Residential Address:</label><br />
+      <textarea
+        id="address"
+        name="address"
+        rows="5"
+        cols="30"
+        placeholder="no 9 Bridget Road, Califonia"
+      ></textarea>
+      <br /><br />
+
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
